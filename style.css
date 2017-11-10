@@ -89,6 +89,13 @@ li.dropdown {
     display: block;
 }
 
+.heroimage {
+  width: 100%;
+  height: auto;
+
+}
+
+
 /*Menu for mobile-devices*/
 
 @media (max-width:425px) {
