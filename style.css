@@ -17,6 +17,43 @@ body {
   padding-right: 10px;
 }
 
+/*Feature section*/
+.features *{
+  box-sizing: border-box;
+}
+
+.features h3 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.features{
+  font-size: 12px;
+  width: 100vw;
+  padding: 0;
+}
+
+.feature{
+  width: 33.33%;
+  height: 200px;
+  float: left;
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.content .material-icons{
+  font-size: 40px;
+}
+.content{
+  text-align: center;
+  padding: 5px;
+  background: red;
+  height: 150px;
+}
+
+/*Larger devices*/
 /*Menu for larger devices*/
 
 ul {
@@ -87,6 +124,19 @@ li.dropdown {
 
 .dropdown-content-menu:hover {
     display: block;
+}
+
+/*Features section for larger devices*/
+/*.features{
+  width: 100%;
+}
+.features h3 {
+  font-size: 36px;
+}
+.feature {
+width: 33%;
+height: 200px;*/
+/*margin: auto;*/
 }
 
 /*Menu for mobile-devices*/
