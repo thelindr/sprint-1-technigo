@@ -279,7 +279,8 @@ h3 {
   background-color: red;
   }
 
-.thirdFeature .thirdTextcard h3 {
+.thirdFeature .thirdTextcard h3 {}
+
 .textcardsecond p {
   line-height: 2vw;
 }
@@ -323,7 +324,6 @@ h3 {
   .features button:hover {
     background-color: #19bfb0;
   }
-}
 
 .Firstfeature button:hover {
   background-color: #19bfb0;
