@@ -688,3 +688,183 @@ h3 {
     margin-top: -100px;
   }
 }
+
+.flexLinks {
+  display: inline-flex;
+  width: 100vw;
+}
+
+
+/*Styling of footer begins here*/
+
+/*.blockBeforeHeader {
+  display: block;
+  color: red;
+  height: 200px;
+}*/
+
+footer * {
+  box-sizing: border-box;
+  font-family: Zent,sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  display:inline;
+  width: 100%;
+}
+
+.footer-bckgr {
+  width: 100%;
+  background-color: #a1e6e5;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.grid {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.group {
+  width: 33%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 40px;
+
+}
+
+.group h4 {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word;
+  line-height: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  /*border-bottom: 2px solid hsla(0,0%,100%,.1);*/
+  border-bottom: 1px solid black;
+}
+
+.group ul {
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  list-style: none;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.group ul li {
+  font-weight: 400;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+#Group1 ul li {
+  width: 50%;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer .divider {
+  width: 100%;
+  margin: 20px 0;
+  /*color: rgba(163,145,224,.4);*/
+  color: black;
+}
+
+footer hr {
+  border-top: 1px solid black;
+}
+
+footer .footerLinks {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer .footerLogo {
+  width: 33%;
+  height: 40px;
+  display: inline-block;
+  height: 40px;
+}
+
+footer .footerLogo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer .socialMedia {
+  width: 33%;
+  height: 40px;
+}
+
+footer .socialMedia ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+footer .socialMedia svg {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+footer .language {
+  width: 33%;
+  height: 40px;
+  text-align: right;
+}
+
+footer .fineprint p,
+footer .fineprint a {
+  display: inline;
+  font-size: 75%;
+}
+
+
+@media (max-width:799px) {
+  .group {
+    width: 100%;
+  }
+
+  * {
+    text-align: center;
+  }
+
+  #Group1 ul li {
+    width: 100%;
+  }
+
+  .group h4 {
+    text-align: center;
+  }
+
+  footer .footerLogo,
+  footer .socialMedia,
+  footer .language {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
