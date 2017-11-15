@@ -163,10 +163,11 @@ h3 {
 
 .content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
   text-align: center;
-  padding: 5px;
+  padding: 5px 10px 10px 10px;
   background: white;
   height: 20vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
