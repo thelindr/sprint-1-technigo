@@ -209,7 +209,7 @@ h3 {
   justify-content: space-between;
   width: 80%;
   margin-left: 10%;
-  margin-top: 30%;
+  margin-top: 25%;
   font-size: 14px;
   font-family: arial;
   padding: 0;
@@ -225,9 +225,14 @@ h3 {
   width: 130%;
   z-index: -1;
   margin-top: 2%;
+  margin-top: 15%;
 }
 .FirstFeatureImg{
   width: 50%;
+}
+
+.Firstfeature button:hover {
+  background-color: #19bfb0;
 }
 
 .textcard {
@@ -237,14 +242,12 @@ h3 {
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: white;
-  padding: 15px;
 }
 
 .Secondfeature {
   width: 100%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 10%;
 }
 
 .textcardsecond {
@@ -255,6 +258,63 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   padding: 15px;
+  text-align: left;
+}
+
+.textcardsecond p {
+  line-height: 2vw;
+}
+
+.textcardsecond h3 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 3vw;
+}
+.textcard p {
+  line-height: 2vw;
+}
+/*Styling of third feature starts here*/
+
+.thirdFeature {
+  width: 80%;
+  padding: 10%;
+  background: yellow;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.thirdFeatureImg {
+  width: 50%;
+}
+
+.thirdFeatureImg img {
+  max-width: 100%;
+}
+
+.thirdFeature .thirdTextcard {
+  width: 50%;
+  background-color: red;
+  }
+
+.thirdFeature .thirdTextcard h3 {}
+
+.textcardsecond p {
+  line-height: 2vw;
+}
+
+.textcardsecond h3 {
+
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 3vw;
+}
+
+.thirdFeature .thirdTextcard span {
+  font-family: monospace;
+  text-transform: uppercase;
 }
 
 .textcard p {
@@ -283,11 +343,6 @@ h3 {
   .features button:hover {
     background-color: #19bfb0;
   }
-}
-
-.Firstfeature button:hover {
-  background-color: #19bfb0;
-}
 
 /* Case section*/
 .case {
