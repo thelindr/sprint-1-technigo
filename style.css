@@ -137,6 +137,7 @@ h3 {
   font-weight: normal;
   font-family: sans-serif;
   margin: 0;
+  margin-top: 2vw;
 }
 
 .SellingPoints {
@@ -168,7 +169,7 @@ h3 {
   align-content: space-between;
   text-align: center;
   margin: 0;
-  padding: 5px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   background: white;
   height: 20vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -223,20 +224,24 @@ h3 {
 .Firstfeature img {
   width: 130%;
   z-index: -1;
+  margin-top: 2%;
   margin-top: 15%;
 }
-.FirstFeatureImg {
+.FirstFeatureImg{
   width: 50%;
+}
+
+.Firstfeature button:hover {
+  background-color: #19bfb0;
 }
 
 .textcard {
   width: 50%;
   margin: 0;
+  display: inline;
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: white;
-  padding: 15px;
 }
 
 .Secondfeature {
@@ -246,6 +251,7 @@ h3 {
 }
 
 .textcardsecond {
+  width: 80%;
   margin: auto;
   color: black;
   text-align: center;
@@ -255,10 +261,23 @@ h3 {
   text-align: left;
 }
 
+.textcardsecond p {
+  line-height: 2vw;
+}
+
+.textcardsecond h3 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 3vw;
+}
+.textcard p {
+  line-height: 2vw;
+}
 /*Styling of third feature starts here*/
 
 .thirdFeature {
-  width: 100%;
+  width: 80%;
   padding: 10%;
   background: yellow;
   display: flex;
@@ -324,10 +343,6 @@ h3 {
   .features button:hover {
     background-color: #19bfb0;
   }
-
-.Firstfeature button:hover {
-  background-color: #19bfb0;
-}
 
 /* Case section*/
 .case {
