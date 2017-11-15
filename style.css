@@ -162,6 +162,9 @@ h3 {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding: 5px;
   background: white;
@@ -169,23 +172,36 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.sellingButton {
-  width: 32%;
-  border: none;
-  color: white;
-  padding: 8px 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
-  letter-spacing: 2px;
-  margin-bottom: 15px;
-  background-color: #ffeb3b;
+/*Styling for the Selling point buttons*/
+.sellingButtonContainer {
 }
 
-.Firstfeature {
+.sellingButton{
+  border: white;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  background: #ffeb3b;
+  font-family: sans-serif;
+  padding-top: 6px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  }
+
+  .sellingButton:hover {
+    background: #19bfb0;
+    color: white;
+  }
+
+.pagelayout {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.features {
   width: 80%;
   box-sizing: border-box;
   margin-left: 10%;
@@ -203,6 +219,13 @@ h3 {
   margin-top: 2%;
 }
 
+.Secondfeature {
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+
 .textcard {
   width: 50%;
   float: right;
@@ -211,6 +234,11 @@ h3 {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
+}
+
+.textcardsecond {
+  width: 100%;
+  margin: auto;
 }
 
 .textcard p {
@@ -225,7 +253,7 @@ h3 {
   line-height: 3vw;
 }
 
-.Firstfeature button {
+.features button {
   background-color: #a1e6e6;
   border: none;
   color: black;
@@ -235,6 +263,11 @@ h3 {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 6%;
+  }
+
+  .features button:hover {
+    background-color: #19bfb0;
+  }
 }
 
 .Firstfeature button:hover {
