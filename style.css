@@ -196,43 +196,51 @@ h3 {
 .pagelayout {
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: space-between;
 }
 
 .features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 80%;
-  box-sizing: border-box;
   margin-left: 10%;
   margin-top: 30%;
-  margin-bottom: 100%;
   font-size: 14px;
   font-family: arial;
+  padding: 0;
+}
+
+.Firstfeature {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .Firstfeature img {
-  width: 50%;
-  float: left;
-  position: absolute;
+  width: 130%;
   z-index: -1;
   margin-top: 2%;
 }
-
-.Secondfeature {
-  width: 100%;
-  margin: auto;
-  margin-top: 2%;
+.FirstFeatureImg{
+  width: 50%;
 }
-
 
 .textcard {
   width: 50%;
-  float: right;
-  margin-right: 2%;
+  margin: 0;
+  display: inline;
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
+  padding: 15px;
+}
+
+.Secondfeature {
+  width: 100vw;
+  margin: auto;
+  margin-top: 2%;
 }
 
 .textcardsecond {
@@ -241,7 +249,6 @@ h3 {
 }
 
 .textcard p {
-  margin: 60px;
   line-height: 2vw;
 }
 
