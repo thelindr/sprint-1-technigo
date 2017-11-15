@@ -843,19 +843,24 @@ footer .fineprint a {
 
 
 @media (max-width:799px) {
-  .group {
+  footer .group {
     width: 100%;
   }
 
-  * {
+  footer * {
     text-align: center;
+  }
+
+  footer ul li {
+    padding: 0;
   }
 
   #Group1 ul li {
     width: 100%;
+    padding: 0;
   }
 
-  .group h4 {
+  footer .group h4 {
     text-align: center;
   }
 
