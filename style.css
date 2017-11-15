@@ -10,7 +10,7 @@ body {
   height: 66px;
   width: 100%;
   position: fixed;
-  z-index: 100;
+  z-index: 1;
 }
 
 .logo, #logga-small {
@@ -20,6 +20,12 @@ body {
 #logo-ul {
   height: 53px;
   margin-top:-7px;
+}
+
+#logo {
+  height: 53px;
+  display: flex;
+  margin-top: -8px;
 }
 
 .namn {
@@ -54,7 +60,6 @@ body {
 }
 
 .hamburger {
-  float: right;
   display: none;
 }
 
@@ -76,21 +81,24 @@ a {
 }
 
 a:active, li a:active {
-    color: red;
+  color: red;
+}
+
+.dropdown {
+  display: none;
 }
 
 /*Styling for the "Beställ"*/
-
-.menu-desktop li {
+#order li {
   padding-right: 20px;
 }
 
-.menu-desktop li:last-child:hover {
+#order:hover {
   background: #19bfb0;
   color: red;
 }
 
-.menu-desktop li:last-child {
+#order {
   border: white;
   cursor: pointer;
   font-size: 18px;
@@ -101,16 +109,11 @@ a:active, li a:active {
   margin-top: -10px;
 }
 
-.menu-desktop li:first-child {
-  height: 53px;
-  display: flex;
-  margin-top: -8px;
-}
-
 button.dropbtn  {
   display: none;
 }
 
+/*Heroimage*/
 .hero {
   width: 100%;
   height: 300px;
@@ -120,6 +123,7 @@ button.dropbtn  {
   background-position: center;
 }
 
+/*Footer*/
 footer {
   /*display: none;*/
 }
@@ -181,14 +185,71 @@ footer {
 
   .hamburger {
     width: 30px;
-    float:right;
     margin-right: 20px;
-    padding-top: 5px;
-    display: inherit;
+    margin-top: 5px;
+    display: block;
   }
 
-  ul.menu-desktop, .dropbtn, .dropdown, .dropdown-content {
+  ul.menu-desktop {
     display: none;
+  }
+
+  .dropdown {
+    display: block;
+    }
+
+  .dropdown-content {
+    visibility: hidden;
+    width: 100%;
+    height: 0px;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    background-color:rgba(255,255,255,0.8);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -1;
+    transform: translateY(55px);
+    transition-property: all;
+    transition-duration: 0.3s, 0s, 0s;
+    transition-timing-function: cubic-bezier(0.07, 0.77, 0.62, 1.12),cubic-bezier(0.03, 0.82, 1, 1),ease-in-out;
+    transition-delay: 0s, 0.3s, 0.01s;
+  }
+
+  .dropdown:hover .dropdown-content {
+    visibility: visible;
+    margin-top: 40px;
+    height: 60px;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+  }
+
+  .hamburger:hover {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+
+  ul.menu-tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 0;
+    list-style-type: none;
+    /*height: 60px;*/
+    width: 87%;
+  }
+
+  li {
+    padding-left: 60px
   }
 
   .logo-container {
@@ -281,15 +342,74 @@ footer {
     padding-top: 11px;
     }
 
- .hamburger {
-    width: 40px;
-    float:right;
-    margin-right: 20px;
-    display: inherit;
-  }
-
   ul.menu-desktop {
     display: none;
+    }
+
+  .hamburger {
+    width: 40px;
+    margin-right: 20px;
+    display: block;
+  }
+
+  .dropdown {
+    display: block;
+    }
+
+  .dropdown-content {
+    visibility: hidden;
+    width: 100%;
+    height: 0px;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    background-color:rgba(255,255,255,0.8);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -1;
+    transform: translateY(55px);
+    transition-property: all;
+    transition-duration: 0.3s, 0s, 0s;
+    transition-timing-function: cubic-bezier(0.07, 0.77, 0.62, 1.12),cubic-bezier(0.03, 0.82, 1, 1),ease-in-out;
+    transition-delay: 0s, 0.3s, 0.01s;
+  }
+
+  .dropdown:hover .dropdown-content {
+    visibility: visible;
+    margin-top: 55px;
+    height: 60px;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+  }
+
+  .hamburger:hover {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+
+  ul.menu-tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 0;
+    list-style-type: none;
+    /*height: 60px;*/
+    width: 87%;
+  }
+
+  li {
+    padding-left: 60px
   }
 
   /*Button on tablet*/

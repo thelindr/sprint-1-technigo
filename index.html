@@ -13,26 +13,32 @@
   <body>
     <nav class="header">
       <div class="menu">
-        <a href="#menu">
-        <img class="hamburger" src="hamburger-icon.png" />
-        </a>
+        <div class="dropdown"><img class="hamburger" src="hamburger-icon.png" />
+        <div class="dropdown-content">
+          <ul class="menu-tablet">
+            <li><a href="#5">Nyheter</a></li>
+            <li><a href="#6">Något annat</a></li>
+            <li><a href="#7">Det tredje</a></li>
+          </ul>
+        </div>
+      </div>
         <ul class="menu-desktop">
-            <li><a href="#home"><span class="namn">AI-kassen</span>
-            <img id="logo-ul" src="logo.png" alt="AI-kassen" /></a></li>
-            <li><a href="#1">Nyheter</a></li>
-            <li><a href="#2">Något annat</a></li>
-            <li><a href="#3">Det tredje</a></li>
-            <li><a href="#3">Beställ</a></li>
+          <li id="logo"><a href="#home"><span class="namn">AI-kassen</span>
+             <img id="logo-ul" src="logo.png" alt="AI-kassen" /></a></li>
+          <li><a href="#1">Nyheter</a></li>
+          <li><a href="#2">Något annat</a></li>
+          <li><a href="#3">Det tredje</a></li>
+          <li id="order"><a href="#3">Beställ</a></li>
         </ul>
         <button class="dropbtn"><a href="#3">Beställ</a></button>
       </div>
       <div class="logo-container">
         <div class="logo"><a href="#home">
-        <img src="logo.png" alt="AI-kassen" />
+          <img src="logo.png" alt="AI-kassen" />
         </div>
         <p id="logga-small">AI-kassen</p></a>
       </div>
-  </nav>
+    </nav>
 
     <div class="hero">
 
