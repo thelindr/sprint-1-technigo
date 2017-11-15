@@ -240,14 +240,19 @@ h3 {
 }
 
 .Secondfeature {
-  width: 100vw;
+  width: 100%;
   margin: auto;
   margin-top: 2%;
 }
 
 .textcardsecond {
-  width: 100%;
+  width: 80%;
   margin: auto;
+  color: black;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  padding: 15px;
 }
 
 .textcard p {
