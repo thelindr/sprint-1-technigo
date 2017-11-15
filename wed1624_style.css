@@ -85,10 +85,6 @@ a:active, li a:active {
   color: red;
 }
 
-a:hover {
-  color: #fff;
-}
-
 .dropdown {
   display: none;
 }
@@ -133,14 +129,13 @@ button.dropbtn  {
 }
 
 h3 {
-  font-size: 2vw;  /*24px;*/
+  font-size: 20px;
   font-weight: normal;
   font-family: sans-serif;
-  margin: 0;
 }
 
 .SellingPoints {
-  font-size: 1.5vw; /*16px;*/
+  font-size: 14px;
   font-family: arial;
   width: 80%;
   margin-left: 10%;
@@ -167,7 +162,6 @@ h3 {
   justify-content: center;
   align-content: space-between;
   text-align: center;
-  margin: 0;
   padding: 5px 10px 10px 10px;
   background: white;
   height: 20vw;
@@ -208,7 +202,7 @@ h3 {
   justify-content: space-between;
   width: 80%;
   margin-left: 10%;
-  margin-top: 25%;
+  margin-top: 30%;
   font-size: 14px;
   font-family: arial;
   padding: 0;
@@ -223,15 +217,16 @@ h3 {
 .Firstfeature img {
   width: 130%;
   z-index: -1;
-  margin-top: 15%;
+  margin-top: 2%;
 }
-.FirstFeatureImg {
+.FirstFeatureImg{
   width: 50%;
 }
 
 .textcard {
   width: 50%;
   margin: 0;
+  display: inline;
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -240,19 +235,14 @@ h3 {
 }
 
 .Secondfeature {
-  width: 100%;
+  width: 100vw;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .textcardsecond {
+  width: 100%;
   margin: auto;
-  color: black;
-  text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: white;
-  padding: 15px;
-  text-align: left;
 }
 
 /*Styling of third feature starts here*/
@@ -279,14 +269,7 @@ h3 {
   background-color: red;
   }
 
-.thirdFeature .thirdTextcard h3 {}
-
-.textcardsecond p {
-  line-height: 2vw;
-}
-
-.textcardsecond h3 {
-
+.thirdFeature .thirdTextcard h3 {
   font-size: 30px;
   font-weight: normal;
   font-family: sans-serif;
@@ -324,6 +307,7 @@ h3 {
   .features button:hover {
     background-color: #19bfb0;
   }
+}
 
 .Firstfeature button:hover {
   background-color: #19bfb0;
@@ -381,9 +365,6 @@ h3 {
     height: 380px;
   }
 
-  a:hover {
-    color: #000;
-  }
 
   .header {
     height: 40px;
@@ -492,11 +473,11 @@ h3 {
   }
 
   .SellingPoints h3 {
-    font-size: 6vw;
+    font-size: 20px;
   }
 
   .SellingPoints{
-    font-size: 3vw;
+    font-size: 12px;
     margin-top: -100px;
     width: 90%;
     margin-left: 5%;
@@ -589,10 +570,6 @@ h3 {
     font-size: 28px;
     margin-top: 15px;
     display: inherit;
-  }
-
-  a:hover {
-    color: #000;
   }
 
   .header {
@@ -698,7 +675,7 @@ h3 {
 
   /*Feature section medium devices*/
   .SellingPoints h3 {
-    font-size: 3vw;
+    font-size: 20px;
   }
 
   .SellingPoint3 {
@@ -706,7 +683,7 @@ h3 {
   }
 
   .SellingPoints{
-    font-size: 1.5vw;
+    font-size: 12px;
     margin-top: -100px;
   }
 
@@ -767,14 +744,14 @@ h3 {
   }
 }
 
-/*SMALLER Medium devices*/
-/*Feature section SMALLER medium devices*/
-/*@media (min-width:426px) and (max-width:660px){
+/*Smaller Medium devices*/
+/*Feature section medium devices*/
+@media (min-width:426px) and (max-width:725px){
   .SellingPoints h3 {
-    font-size: 14px;
+    font-size: 11px;
   }
   .SellingPoints {
-    font-size: 12px;
+    font-size: 10px;
     font-family: arial;
     width: 80%;
     margin-left: 10%;
@@ -783,19 +760,26 @@ h3 {
     z-index: 2;
     margin-top: -100px;
   }
-}*/
+}
 
 .flexLinks {
   display: inline-flex;
   width: 100vw;
 }
 
-/*Footer*/
+
+/*Styling of footer begins here*/
+
+/*.blockBeforeHeader {
+  display: block;
+  color: red;
+  height: 200px;
+}*/
 
 footer * {
   box-sizing: border-box;
   font-family: Zent,sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 footer {
@@ -826,9 +810,11 @@ footer {
   padding-left: 12px;
   padding-right: 12px;
   margin-bottom: 40px;
+
 }
 
 .group h4 {
+  color: white;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -838,6 +824,7 @@ footer {
   line-height: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  /*border-bottom: 2px solid hsla(0,0%,100%,.1);*/
   border-bottom: 1px solid black;
 }
 
@@ -865,13 +852,10 @@ footer a:hover {
   color: white;
 }
 
-footer a:active {
-  color: red;
-}
-
 footer .divider {
   width: 100%;
   margin: 20px 0;
+  /*color: rgba(163,145,224,.4);*/
   color: black;
 }
 
@@ -924,16 +908,10 @@ footer .language {
   text-align: right;
 }
 
-footer .fineprint {
-  text-align: center;
-}
-
 footer .fineprint p,
 footer .fineprint a {
   display: inline;
   font-size: 75%;
-  text-align: center;
-  margin: auto;
 }
 
 
