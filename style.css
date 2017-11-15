@@ -355,6 +355,7 @@ footer {
   .dropbtn a:active {
       color: red;
   }
+
   /*Feature section medium devices*/
   .SellingPoints h3 {
     font-size: 20px;
@@ -381,5 +382,23 @@ footer {
     text-align: center;
     padding: 5px;
     height: 33vw;
+  }
+}
+
+/*Smaller Medium devices*/
+/*Feature section medium devices*/
+@media (min-width:426px) and (max-width:725px){
+  .SellingPoints h3 {
+    font-size: 11px;
+  }
+  .SellingPoints {
+    font-size: 10px;
+    font-family: arial;
+    width: 80%;
+    margin-left: 10%;
+    padding: 0px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -100px;
   }
 }
