@@ -277,12 +277,14 @@ h3 {
 /*Styling of third feature starts here*/
 
 .thirdFeature {
-  width: 80%;
-  padding: 10%;
-  background: yellow;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;20;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .thirdFeatureImg {
@@ -290,18 +292,39 @@ h3 {
 }
 
 .thirdFeatureImg img {
+  box-sizing: border-box;
   max-width: 100%;
+  padding: 5%;
 }
 
 .thirdFeature .thirdTextcard {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 50%;
-  background-color: red;
+  background-color: white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
   }
 
-.thirdFeature .thirdTextcard h3 {}
+.thirdFeature .thirdTextcard h3 {
+  text-align: center;
+}
+
+.thirdFeature p {
+  text-align: center;
+  padding: 5px;
+}
+
+.thirdTextcard button {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
 
 .textcardsecond p {
   line-height: 2vw;
+  text-align: center;
 }
 
 .textcardsecond h3 {
