@@ -85,6 +85,10 @@ a:active, li a:active {
   color: red;
 }
 
+a:hover {
+  color: #fff;
+}
+
 .dropdown {
   display: none;
 }
@@ -121,11 +125,6 @@ button.dropbtn  {
   background-image: url(https://iwellnesslife.com/wp-content/uploads/2017/02/grocery.jpg);
   background-size: cover;
   background-position: top;
-}
-
-/*Footer*/
-footer {
-  /*display: none;*/
 }
 
 /*Selling point section*/
@@ -341,6 +340,9 @@ h3 {
     height: 380px;
   }
 
+  a:hover {
+    color: #000;
+  }
 
   .header {
     height: 40px;
@@ -548,6 +550,10 @@ h3 {
     display: inherit;
   }
 
+  a:hover {
+    color: #000;
+  }
+
   .header {
     height: 66px;
     display: flex;
@@ -743,19 +749,12 @@ h3 {
   width: 100vw;
 }
 
-
-/*Styling of footer begins here*/
-
-/*.blockBeforeHeader {
-  display: block;
-  color: red;
-  height: 200px;
-}*/
+/*Footer*/
 
 footer * {
   box-sizing: border-box;
   font-family: Zent,sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 footer {
@@ -786,11 +785,9 @@ footer {
   padding-left: 12px;
   padding-right: 12px;
   margin-bottom: 40px;
-
 }
 
 .group h4 {
-  color: white;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -800,7 +797,6 @@ footer {
   line-height: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  /*border-bottom: 2px solid hsla(0,0%,100%,.1);*/
   border-bottom: 1px solid black;
 }
 
@@ -828,10 +824,13 @@ footer a:hover {
   color: white;
 }
 
+footer a:active {
+  color: red;
+}
+
 footer .divider {
   width: 100%;
   margin: 20px 0;
-  /*color: rgba(163,145,224,.4);*/
   color: black;
 }
 
