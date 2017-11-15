@@ -185,7 +185,14 @@ h3 {
   background-color: #ffeb3b;
 }
 
-.Firstfeature {
+.pagelayout {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.features {
   width: 80%;
   box-sizing: border-box;
   margin-left: 10%;
@@ -203,6 +210,12 @@ h3 {
   margin-top: 2%;
 }
 
+.Secondfeature {
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+}
+
 
 .textcard {
   width: 50%;
@@ -212,6 +225,11 @@ h3 {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
+}
+
+.textcardsecond {
+  width: 100%;
+  margin: auto;
 }
 
 .textcard p {
@@ -226,7 +244,7 @@ h3 {
   line-height: 3vw;
 }
 
-.Firstfeature button {
+.features button {
   background-color: #a1e6e6;
   border: none;
   color: black;
@@ -238,7 +256,7 @@ h3 {
   margin-bottom: 6%;
   }
 
-  .Firstfeature button:hover {
+  .features button:hover {
     background-color: #19bfb0;
   }
 }
@@ -640,7 +658,6 @@ h3 {
     padding: 5px;
     height: 33vw;
   }
-
 
   .Firstfeature {
     margin-top: 38%;
