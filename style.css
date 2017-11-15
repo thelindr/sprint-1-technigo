@@ -85,6 +85,10 @@ a:active, li a:active {
   color: red;
 }
 
+a:hover {
+  color: #fff;
+}
+
 .dropdown {
   display: none;
 }
@@ -123,24 +127,20 @@ button.dropbtn  {
   background-position: top;
 }
 
-/*Footer*/
-footer {
-  /*display: none;*/
-}
-
 /*Selling point section*/
 .SellingPoints * {
   box-sizing: border-box;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 2vw;  /*24px;*/
   font-weight: normal;
   font-family: sans-serif;
+  margin: 0;
 }
 
 .SellingPoints {
-  font-size: 14px;
+  font-size: 1.5vw; /*16px;*/
   font-family: arial;
   width: 80%;
   margin-left: 10%;
@@ -167,6 +167,7 @@ h3 {
   justify-content: center;
   align-content: space-between;
   text-align: center;
+  margin: 0;
   padding: 5px 10px 10px 10px;
   background: white;
   height: 20vw;
@@ -348,6 +349,9 @@ h3 {
     height: 380px;
   }
 
+  a:hover {
+    color: #000;
+  }
 
   .header {
     height: 40px;
@@ -456,11 +460,11 @@ h3 {
   }
 
   .SellingPoints h3 {
-    font-size: 20px;
+    font-size: 6vw;
   }
 
   .SellingPoints{
-    font-size: 12px;
+    font-size: 3vw;
     margin-top: -100px;
     width: 90%;
     margin-left: 5%;
@@ -553,6 +557,10 @@ h3 {
     font-size: 28px;
     margin-top: 15px;
     display: inherit;
+  }
+
+  a:hover {
+    color: #000;
   }
 
   .header {
@@ -658,7 +666,7 @@ h3 {
 
   /*Feature section medium devices*/
   .SellingPoints h3 {
-    font-size: 20px;
+    font-size: 3vw;
   }
 
   .SellingPoint3 {
@@ -666,7 +674,7 @@ h3 {
   }
 
   .SellingPoints{
-    font-size: 12px;
+    font-size: 1.5vw;
     margin-top: -100px;
   }
 
@@ -727,14 +735,14 @@ h3 {
   }
 }
 
-/*Smaller Medium devices*/
-/*Feature section medium devices*/
-@media (min-width:426px) and (max-width:725px){
+/*SMALLER Medium devices*/
+/*Feature section SMALLER medium devices*/
+/*@media (min-width:426px) and (max-width:660px){
   .SellingPoints h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .SellingPoints {
-    font-size: 10px;
+    font-size: 12px;
     font-family: arial;
     width: 80%;
     margin-left: 10%;
@@ -743,26 +751,19 @@ h3 {
     z-index: 2;
     margin-top: -100px;
   }
-}
+}*/
 
 .flexLinks {
   display: inline-flex;
   width: 100vw;
 }
 
-
-/*Styling of footer begins here*/
-
-/*.blockBeforeHeader {
-  display: block;
-  color: red;
-  height: 200px;
-}*/
+/*Footer*/
 
 footer * {
   box-sizing: border-box;
   font-family: Zent,sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 footer {
@@ -793,11 +794,9 @@ footer {
   padding-left: 12px;
   padding-right: 12px;
   margin-bottom: 40px;
-
 }
 
 .group h4 {
-  color: white;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -807,7 +806,6 @@ footer {
   line-height: 20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  /*border-bottom: 2px solid hsla(0,0%,100%,.1);*/
   border-bottom: 1px solid black;
 }
 
@@ -835,10 +833,13 @@ footer a:hover {
   color: white;
 }
 
+footer a:active {
+  color: red;
+}
+
 footer .divider {
   width: 100%;
   margin: 20px 0;
-  /*color: rgba(163,145,224,.4);*/
   color: black;
 }
 
