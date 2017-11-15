@@ -129,7 +129,7 @@ footer {
   box-sizing: border-box;
 }
 
-.SellingPoints h3 {
+h3 {
   font-size: 20px;
   font-weight: normal;
   font-family: sans-serif;
@@ -199,6 +199,48 @@ footer {
   line-height: 22px;
 }
 
+/* Case section*/
+.case {
+  background: #ffeb3b;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.caseImages {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 18vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.familycooking, .foodbox, .sallad{
+  width: 33.3%;
+}
+
+.caseImages img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-position: center;
+  object-fit: cover;
+}
+
+.familytext {
+  width: 40%;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font-size: 14px;
+}
 
 /*Mobile-devices*/
 
@@ -283,6 +325,19 @@ footer {
 
   .SellingPoint3, .SellingPoint2 {
     display: none;
+  }
+
+  .familycooking {
+    width: 100%;
+  }
+  .sallad, .foodbox {
+    display: none;
+  }
+  .caseImages {
+    height: 65vw;
+  }
+  .familytext {
+    width: 80%;
   }
 }
 
@@ -382,6 +437,18 @@ footer {
     text-align: center;
     padding: 5px;
     height: 33vw;
+  }
+  .caseImages {
+    height: 33vw;
+  }
+  .familycooking, .foodbox {
+    width: 50%;
+  }
+  .sallad {
+    display: none;
+  }
+  .familytext {
+    width: 60%;
   }
 }
 
