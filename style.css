@@ -11,6 +11,7 @@ body {
   width: 100%;
   position: fixed;
   z-index: 3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo, #logga-small {
@@ -883,19 +884,24 @@ footer .fineprint a {
 
 
 @media (max-width:799px) {
-  .group {
+  footer .group {
     width: 100%;
   }
 
-  * {
+  footer * {
     text-align: center;
+  }
+
+  footer ul li {
+    padding: 0;
   }
 
   #Group1 ul li {
     width: 100%;
+    padding: 0;
   }
 
-  .group h4 {
+  footer .group h4 {
     text-align: center;
   }
 
