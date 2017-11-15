@@ -129,7 +129,7 @@ footer {
   box-sizing: border-box;
 }
 
-.SellingPoints h3 {
+h3 {
   font-size: 20px;
   font-weight: normal;
   font-family: sans-serif;
@@ -222,7 +222,64 @@ footer {
     background-color: #19bfb0;
   }
 }
+.sellingButton{
+  width: 32%;
+  border: none;
+  color: white;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  background-color: #ffeb3b;
+}
 
+/* Case section*/
+.case {
+  background: #ffeb3b;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.caseImages {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 18vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.familycooking, .foodbox, .sallad{
+  width: 33.3%;
+}
+
+.caseImages img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-position: center;
+  object-fit: cover;
+}
+
+.familytext {
+  width: 40%;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  font-size: 14px;
+}
 
 /*Mobile-devices*/
 
@@ -336,6 +393,18 @@ footer {
    line-height: 4vw;
  }
 
+  .familycooking {
+    width: 100%;
+  }
+  .sallad, .foodbox {
+    display: none;
+  }
+  .caseImages {
+    height: 65vw;
+  }
+  .familytext {
+    width: 80%;
+  }
 }
 
 /*Tabletdevices*/
@@ -436,6 +505,7 @@ footer {
     height: 33vw;
   }
 
+
   .Firstfeature {
     margin-top: 38%;
   }
@@ -460,6 +530,20 @@ footer {
  .textcard p {
    line-height: 4vw;
  }
+
+  .caseImages {
+    height: 33vw;
+  }
+  .familycooking, .foodbox {
+    width: 50%;
+  }
+  .sallad {
+    display: none;
+  }
+  .familytext {
+    width: 60%;
+  }
+
 }
 
 /*Smaller Medium devices*/
