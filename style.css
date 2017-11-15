@@ -123,11 +123,6 @@ button.dropbtn  {
   background-position: top;
 }
 
-/*Footer*/
-footer {
-  /*display: none;*/
-}
-
 /*Selling point section*/
 .SellingPoints * {
   box-sizing: border-box;
@@ -248,6 +243,42 @@ h3 {
 .textcardsecond {
   width: 100%;
   margin: auto;
+}
+
+/*Styling of third feature starts here*/
+
+.thirdFeature {
+  width: 100%;
+  padding: 10%;
+  background: yellow;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.thirdFeatureImg {
+  width: 50%;
+}
+
+.thirdFeatureImg img {
+  max-width: 100%;
+}
+
+.thirdFeature .thirdTextcard {
+  width: 50%;
+  background-color: red;
+  }
+
+.thirdFeature .thirdTextcard h3 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 3vw;
+}
+
+.thirdFeature .thirdTextcard span {
+  font-family: monospace;
+  text-transform: uppercase;
 }
 
 .textcard p {
