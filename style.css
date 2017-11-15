@@ -198,6 +198,21 @@ h3 {
   margin: 10px;
   line-height: 22px;
 }
+.sellingButton{
+  width: 32%;
+  border: none;
+  color: white;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  background-color: #ffeb3b;
+}
 
 /* Case section*/
 .case {
