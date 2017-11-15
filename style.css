@@ -169,7 +169,7 @@ footer {
   width: 80%;
   box-sizing: border-box;
   margin-left: 10%;
-  margin-top: 40%;
+  margin-top: 30%;
   margin-bottom: 100%;
   font-size: 14px;
   font-family: arial;
@@ -186,8 +186,8 @@ footer {
 
 .textcard {
   width: 50%;
-  height: 30vw;
   float: right;
+  margin-right: 2%;
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -195,8 +195,32 @@ footer {
 }
 
 .textcard p {
-  margin: 10px;
-  line-height: 22px;
+  margin: 60px;
+  line-height: 2vw;
+}
+
+.textcard h3 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 3vw;
+}
+
+.Firstfeature button {
+  background-color: #a1e6e6;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 6%;
+  }
+
+  .Firstfeature button:hover {
+    background-color: #19bfb0;
+  }
 }
 
 
@@ -284,6 +308,34 @@ footer {
   .SellingPoint3, .SellingPoint2 {
     display: none;
   }
+
+.Firstfeature {
+  width: 90%;
+  margin: auto;
+  margin-top: 64%;
+  }
+
+.Firstfeature img {
+  position: relative;
+  float: none;
+  width: 100%;
+  margin: auto;
+ }
+
+.textcard {
+  width: 100%;
+  margin: auto;
+  margin-top: 10%;
+ }
+
+ .textcard h3 {
+   line-height: 7vw;
+ }
+
+ .textcard p {
+   line-height: 4vw;
+ }
+
 }
 
 /*Tabletdevices*/
@@ -383,6 +435,31 @@ footer {
     padding: 5px;
     height: 33vw;
   }
+
+  .Firstfeature {
+    margin-top: 38%;
+  }
+
+.Firstfeature img {
+  position: relative;
+  float: none;
+  width: 100%;
+  margin: auto;
+ }
+
+.textcard {
+  width: 100%;
+  margin: auto;
+  margin-top: 10%;
+ }
+
+ .textcard h3 {
+   line-height: 4vw;
+ }
+
+ .textcard p {
+   line-height: 4vw;
+ }
 }
 
 /*Smaller Medium devices*/
