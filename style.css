@@ -207,7 +207,7 @@ h3 {
   justify-content: space-between;
   width: 80%;
   margin-left: 10%;
-  margin-top: 30%;
+  margin-top: 25%;
   font-size: 14px;
   font-family: arial;
   padding: 0;
@@ -222,16 +222,15 @@ h3 {
 .Firstfeature img {
   width: 130%;
   z-index: -1;
-  margin-top: 2%;
+  margin-top: 15%;
 }
-.FirstFeatureImg{
+.FirstFeatureImg {
   width: 50%;
 }
 
 .textcard {
   width: 50%;
   margin: 0;
-  display: inline;
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -242,19 +241,29 @@ h3 {
 .Secondfeature {
   width: 100%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 10%;
 }
 
 .textcardsecond {
-  width: 80%;
   margin: auto;
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   padding: 15px;
+  text-align: left;
 }
 
+.textcardsecond p {
+  line-height: 2vw;
+}
+
+.textcardsecond h3 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 3vw;
+}
 .textcard p {
   line-height: 2vw;
 }
