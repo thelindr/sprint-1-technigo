@@ -133,13 +133,14 @@ button.dropbtn  {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 2vw;  /*24px;*/
   font-weight: normal;
   font-family: sans-serif;
+  margin: 0;
 }
 
 .SellingPoints {
-  font-size: 14px;
+  font-size: 1.5vw; /*16px;*/
   font-family: arial;
   width: 80%;
   margin-left: 10%;
@@ -166,6 +167,7 @@ h3 {
   justify-content: center;
   align-content: space-between;
   text-align: center;
+  margin: 0;
   padding: 5px 10px 10px 10px;
   background: white;
   height: 20vw;
@@ -449,11 +451,11 @@ h3 {
   }
 
   .SellingPoints h3 {
-    font-size: 20px;
+    font-size: 6vw;
   }
 
   .SellingPoints{
-    font-size: 12px;
+    font-size: 3vw;
     margin-top: -100px;
     width: 90%;
     margin-left: 5%;
@@ -655,7 +657,7 @@ h3 {
 
   /*Feature section medium devices*/
   .SellingPoints h3 {
-    font-size: 20px;
+    font-size: 3vw;
   }
 
   .SellingPoint3 {
@@ -663,7 +665,7 @@ h3 {
   }
 
   .SellingPoints{
-    font-size: 12px;
+    font-size: 1.5vw;
     margin-top: -100px;
   }
 
@@ -724,14 +726,14 @@ h3 {
   }
 }
 
-/*Smaller Medium devices*/
-/*Feature section medium devices*/
-@media (min-width:426px) and (max-width:725px){
+/*SMALLER Medium devices*/
+/*Feature section SMALLER medium devices*/
+/*@media (min-width:426px) and (max-width:660px){
   .SellingPoints h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .SellingPoints {
-    font-size: 10px;
+    font-size: 12px;
     font-family: arial;
     width: 80%;
     margin-left: 10%;
@@ -740,7 +742,7 @@ h3 {
     z-index: 2;
     margin-top: -100px;
   }
-}
+}*/
 
 .flexLinks {
   display: inline-flex;
