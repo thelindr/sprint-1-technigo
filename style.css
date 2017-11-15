@@ -169,6 +169,22 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.sellingButton{
+  width: 32%;
+  border: none;
+  color: white;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  background-color: #ffeb3b;
+}
+
 .Firstfeature {
   width: 80%;
   box-sizing: border-box;
