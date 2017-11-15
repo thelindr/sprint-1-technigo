@@ -105,7 +105,6 @@ a:active, li a:active {
   background: #d6f7f6;
   font-family: sans-serif;
   padding: 10px;
-  border-radius: 20px;
   margin-top: -10px;
 }
 
@@ -169,7 +168,7 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.sellingButton{
+.sellingButton {
   width: 32%;
   border: none;
   color: white;
@@ -203,7 +202,6 @@ h3 {
   margin-top: 2%;
 }
 
-
 .textcard {
   width: 50%;
   float: right;
@@ -236,26 +234,10 @@ h3 {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 6%;
-  }
-
-  .Firstfeature button:hover {
-    background-color: #19bfb0;
-  }
 }
-.sellingButton{
-  width: 32%;
-  border: none;
-  color: white;
-  padding: 8px 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-family: "futura-pt-n7","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
-  letter-spacing: 2px;
-  margin-bottom: 15px;
-  background-color: #ffeb3b;
+
+.Firstfeature button:hover {
+  background-color: #19bfb0;
 }
 
 /* Case section*/
@@ -319,7 +301,7 @@ h3 {
   .menu {
     width:auto;
     display: flex;
-    }
+  }
 
   .hamburger {
     width: 30px;
@@ -328,13 +310,29 @@ h3 {
     display: block;
   }
 
-  ul.menu-desktop {
+  ul.menu-desktop, ul.menu-tablet {
     display: none;
+  }
+
+  ul.menu-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 0;
+    list-style-type: none;
+    width: 87%;
+  }
+
+  li#order-mobile {
+    color: #19bfb0;
+    font-weight: bold;
   }
 
   .dropdown {
     display: block;
-    }
+  }
 
   .dropdown-content {
     visibility: hidden;
@@ -372,18 +370,6 @@ h3 {
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
-  }
-
-  ul.menu-tablet {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    font-size: 14px;
-    padding: 0;
-    list-style-type: none;
-    /*height: 60px;*/
-    width: 87%;
   }
 
   li {
@@ -443,23 +429,23 @@ h3 {
     display: none;
   }
 
-.Firstfeature {
-  width: 90%;
-  margin: auto;
-  margin-top: 64%;
+  .Firstfeature {
+    width: 90%;
+    margin: auto;
+    margin-top: 64%;
   }
 
-.Firstfeature img {
-  position: relative;
-  float: none;
-  width: 100%;
-  margin: auto;
- }
+  .Firstfeature img {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
 
-.textcard {
-  width: 100%;
-  margin: auto;
-  margin-top: 10%;
+ .textcard {
+   width: 100%;
+   margin: auto;
+   margin-top: 10%;
  }
 
  .textcard h3 {
@@ -473,12 +459,15 @@ h3 {
   .familycooking {
     width: 100%;
   }
+
   .sallad, .foodbox {
     display: none;
   }
+
   .caseImages {
     height: 65vw;
   }
+
   .familytext {
     width: 80%;
   }
@@ -518,11 +507,11 @@ h3 {
   .menu {
     width:16%;
     padding-top: 11px;
-    }
+  }
 
-  ul.menu-desktop {
+  ul.menu-desktop, ul.menu-mobile {
     display: none;
-    }
+  }
 
   .hamburger {
     width: 40px;
@@ -532,7 +521,7 @@ h3 {
 
   .dropdown {
     display: block;
-    }
+  }
 
   .dropdown-content {
     visibility: hidden;
@@ -582,7 +571,6 @@ h3 {
     font-size: 16px;
     padding: 0;
     list-style-type: none;
-    /*height: 60px;*/
     width: 87%;
   }
 
@@ -599,18 +587,17 @@ h3 {
     background: #d6f7f6;
     font-family: sans-serif;
     padding: 10px;
-    border-radius: 20px;
     position:fixed;
     right: 20px;
     display: inherit;
   }
 
   .dropbtn:hover {
-      background: #19bfb0;
+    background: #19bfb0;
   }
 
   .dropbtn a:active {
-      color: red;
+    color: red;
   }
 
   /*Feature section medium devices*/
@@ -635,51 +622,53 @@ h3 {
   .content .material-icons{
     font-size: 40px;
   }
+
   .content{
     text-align: center;
     padding: 5px;
     height: 33vw;
   }
 
-
   .Firstfeature {
     margin-top: 38%;
   }
 
-.Firstfeature img {
-  position: relative;
-  float: none;
-  width: 100%;
-  margin: auto;
- }
+  .Firstfeature img {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
 
-.textcard {
-  width: 100%;
-  margin: auto;
-  margin-top: 10%;
- }
+  .textcard {
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+  }
 
- .textcard h3 {
-   line-height: 4vw;
- }
+  .textcard h3 {
+    line-height: 4vw;
+  }
 
- .textcard p {
-   line-height: 4vw;
- }
+  .textcard p {
+    line-height: 4vw;
+  }
 
   .caseImages {
     height: 33vw;
   }
+
   .familycooking, .foodbox {
     width: 50%;
   }
+
   .sallad {
     display: none;
   }
+
   .familytext {
     width: 60%;
   }
-
 }
 
 /*Smaller Medium devices*/
