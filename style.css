@@ -10,6 +10,7 @@ body {
 
 h3 {
 font-family: 'Overlock', cursive;
+font-size: 30px;
 }
 
 /*Larger devices*/
@@ -140,7 +141,7 @@ button.dropbtn  {
   box-sizing: border-box;
 }
 
-h3 {
+.SellingPoints h3 {
   font-size: 2vw;  /*24px;*/
   margin: 0;
   margin-top: 2vw;
@@ -842,7 +843,7 @@ h3 {
 
  .textcard p {
    padding: 2%;
-   line-height: 5vw;
+   line-height: 4vw;
  }
 
  .textcardsecond {
@@ -859,7 +860,7 @@ h3 {
 
  .textcardsecond p {
    padding: 2%;
-   line-height: 5vw;
+   line-height: 4vw;
  }
 
  .secondbutton {
@@ -894,24 +895,6 @@ h3 {
     width: 100%;
   }
 }
-
-/*SMALLER Medium devices*/
-/*Feature section SMALLER medium devices*/
-/*@media (min-width:426px) and (max-width:660px){
-  .SellingPoints h3 {
-    font-size: 14px;
-  }
-  .SellingPoints {
-    font-size: 12px;
-    font-family: arial;
-    width: 80%;
-    margin-left: 10%;
-    padding: 0px;
-    position: absolute;
-    z-index: 2;
-    margin-top: -100px;
-  }
-}*/
 
 .flexLinks {
   display: inline-flex;
