@@ -321,6 +321,7 @@ h3 {
 
 .thirdFeature .thirdTextcard h3 {
   text-align: center;
+  font-size: 22px;
 }
 
 .thirdFeature p {
@@ -643,6 +644,14 @@ h3 {
   .familytext {
     width: 80%;
   }
+
+  .thirdFeatureImg {
+    width: 100%;
+  }
+  .thirdFeature .thirdTextcard {
+    width: 100%;
+  }
+
 }
 
 /*Tabletdevices*/
@@ -874,6 +883,18 @@ h3 {
 
   .familytext {
     width: 60%;
+  }
+
+  .thirdFeature {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .thirdFeatureImg {
+    width: 100%;
+  }
+  .thirdFeature .thirdTextcard {
+    width: 100%;
   }
 }
 
