@@ -2,6 +2,7 @@
 
 body {
   margin:0;
+  background-color: #fff3db36;
 }
 /*Larger devices*/
 /*Header  - menu and dropdown included*/
@@ -223,7 +224,7 @@ h3 {
 
 .Firstfeature img {
   width: 130%;
-  z-index: -1;
+  z-index: 0;
   margin-top: 2%;
   margin-top: 15%;
 }
@@ -240,6 +241,7 @@ h3 {
   margin: 0;
   display: inline;
   color: black;
+  background: white;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -251,18 +253,22 @@ h3 {
 }
 
 .textcardsecond {
-  width: 80%;
+  width: 100%;
   margin: auto;
   color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
-  padding: 15px;
   text-align: left;
+  background-image: url(./berry-bliss-smoothie-bowl.jpg);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .textcardsecond p {
   line-height: 2vw;
+  padding: 0 5% 5% 50%;
 }
 
 .textcardsecond h3 {
@@ -270,9 +276,15 @@ h3 {
   font-weight: normal;
   font-family: sans-serif;
   line-height: 3vw;
+  padding: 5% 5% 0 50%;
+}
+
+.secondbutton {
+  padding-left: 50%;
 }
 .textcard p {
   line-height: 2vw;
+  padding: 15px;
 }
 /*Styling of third feature starts here*/
 
@@ -340,15 +352,12 @@ h3 {
   text-transform: uppercase;
 }
 
-.textcard p {
-  line-height: 2vw;
-}
-
 .textcard h3 {
   font-size: 30px;
   font-weight: normal;
   font-family: sans-serif;
   line-height: 3vw;
+  padding: 15px;
 }
 
 .features button {
@@ -568,13 +577,18 @@ h3 {
     width: 90%;
     margin: auto;
     margin-top: 64%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FirstFeatureImg {
+    width: 100%;
+    margin: auto;
   }
 
   .Firstfeature img {
-    position: relative;
-    float: none;
     width: 100%;
-    margin: auto;
+    margin-top: -25%;
   }
 
  .textcard {
@@ -584,11 +598,34 @@ h3 {
  }
 
  .textcard h3 {
-   line-height: 7vw;
+   padding: 2% 2% 2% 0;
+   line-height: 6vw;
  }
 
  .textcard p {
-   line-height: 4vw;
+   padding: 2%;
+   line-height: 6vw;
+ }
+
+ .textcardsecond {
+   width: 90%;
+   background-size: 100%;
+   background-position: top;
+   text-align: center;
+ }
+
+ .textcardsecond h3 {
+   padding: 60% 2% 2% 0;
+   line-height: 6vw;
+ }
+
+ .textcardsecond p {
+   padding: 2%;
+   line-height: 6vw;
+ }
+
+ .secondbutton {
+   padding: 0;
  }
 
   .familycooking {
@@ -769,29 +806,59 @@ h3 {
   }
 
   .Firstfeature {
-    margin-top: 38%;
+    width: 90%;
+    margin: auto;
+    margin-top: 32%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FirstFeatureImg {
+    width: 100%;
+    margin: auto;
   }
 
   .Firstfeature img {
-    position: relative;
-    float: none;
     width: 100%;
-    margin: auto;
+    margin-top: -25%;
   }
 
-  .textcard {
-    width: 100%;
-    margin: auto;
-    margin-top: 10%;
-  }
+ .textcard {
+   width: 100%;
+   margin: auto;
+   margin-top: 10%;
+ }
 
-  .textcard h3 {
-    line-height: 4vw;
-  }
+ .textcard h3 {
+   padding: 2% 2% 2% 0;
+   line-height: 5vw;
+ }
 
-  .textcard p {
-    line-height: 4vw;
-  }
+ .textcard p {
+   padding: 2%;
+   line-height: 5vw;
+ }
+
+ .textcardsecond {
+   width: 90%;
+   background-size: 100%;
+   background-position: top;
+   text-align: center;
+ }
+
+ .textcardsecond h3 {
+   padding: 60% 2% 2% 0;
+   line-height: 5vw;
+ }
+
+ .textcardsecond p {
+   padding: 2%;
+   line-height: 5vw;
+ }
+
+ .secondbutton {
+   padding: 0;
+ }
 
   .caseImages {
     height: 33vw;
