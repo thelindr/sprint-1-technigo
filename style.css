@@ -616,13 +616,15 @@ button.dropbtn  {
  }
 
  .textcardsecond h3 {
-   padding: 65% 2% 2% 0;
+   padding: 66% 2% 2% 0;
    line-height: 9vw;
+   text-align: center;
  }
 
  .textcardsecond p {
    padding: 2%;
    line-height: 6vw;
+   text-align: center;
  }
 
  .secondbutton {
@@ -855,13 +857,15 @@ button.dropbtn  {
  }
 
  .textcardsecond h3 {
-   padding: 60% 2% 2% 0;
+   padding: 66% 2% 2% 0;
    line-height: 5vw;
+   text-align: center;
  }
 
  .textcardsecond p {
    padding: 2%;
    line-height: 4vw;
+   text-align: center;
  }
 
  .secondbutton {
