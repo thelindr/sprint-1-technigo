@@ -326,6 +326,7 @@ h3 {
 
 .thirdFeature p {
   text-align: center;
+  margin-top: 0;
   padding: 5px;
 }
 
@@ -351,6 +352,7 @@ h3 {
 .thirdFeature .thirdTextcard span {
   font-family: monospace;
   text-transform: uppercase;
+  font-size: 40px;
 }
 
 .textcard h3 {
