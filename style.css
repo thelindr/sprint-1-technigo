@@ -534,11 +534,15 @@ h3 {
     font-size: 6vw;
   }
 
+  .SellingPoints p{
+    font-size: 4vw;
+    margin: 0 15px 0 15px;
+  }
+
   .SellingPoints{
-    font-size: 3vw;
     margin-top: -100px;
     width: 90%;
-    margin-left: 5%;
+    margin-left:5%;
   }
 
   .SellingPoint{
@@ -745,7 +749,7 @@ h3 {
   }
 
   .SellingPoints{
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin-top: -100px;
   }
 
