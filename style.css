@@ -272,6 +272,7 @@ button.dropbtn  {
 .textcardsecond p {
   line-height: 2vw;
   padding: 0 5% 5% 50%;
+  text-align: left;
 }
 
 .textcardsecond h3 {
@@ -279,6 +280,7 @@ button.dropbtn  {
   font-weight: normal;
   line-height: 3vw;
   padding: 5% 5% 0 50%;
+  text-align: left;
 }
 
 .secondbutton {
@@ -340,7 +342,6 @@ button.dropbtn  {
 
 .textcardsecond p {
   line-height: 2vw;
-  text-align: center;
 }
 
 .textcardsecond h3 {
@@ -614,13 +615,15 @@ button.dropbtn  {
  }
 
  .textcardsecond h3 {
-   padding: 65% 2% 2% 0;
+   padding: 66% 2% 2% 0;
    line-height: 9vw;
+   text-align: center;
  }
 
  .textcardsecond p {
    padding: 2%;
    line-height: 6vw;
+   text-align: center;
  }
 
  .secondbutton {
@@ -852,13 +855,15 @@ button.dropbtn  {
  }
 
  .textcardsecond h3 {
-   padding: 60% 2% 2% 0;
+   padding: 66% 2% 2% 0;
    line-height: 5vw;
+   text-align: center;
  }
 
  .textcardsecond p {
    padding: 2%;
    line-height: 4vw;
+   text-align: center;
  }
 
  .secondbutton {
@@ -903,7 +908,6 @@ button.dropbtn  {
 
 footer * {
   box-sizing: border-box;
-  font-family: Zent,sans-serif;
   font-size: 16px;
 }
 
@@ -948,6 +952,7 @@ footer {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid black;
+  font-family: 'Overlock', cursive;
 }
 
 .group ul {
